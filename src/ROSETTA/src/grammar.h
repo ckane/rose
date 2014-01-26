@@ -23,7 +23,7 @@
 #include <sys/stat.h>
 #if !ROSE_MICROSOFT_OS
 #include <dirent.h>
-#include </usr/include/sys/file.h>
+#include <sys/file.h>
 #include <unistd.h>
 #endif
 #include <assert.h>
